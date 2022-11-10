@@ -10,7 +10,7 @@ public class Driver {
 
     static WebDriver driver;
 
-    public static WebDriver getGriver(){
+    public static WebDriver getDriver(){
         if (driver == null){
 
             String browser = ConfigurationReader.getProperty("browser");
